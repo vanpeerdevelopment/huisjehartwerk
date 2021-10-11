@@ -21,3 +21,12 @@ body {
     font-size: 4rem;
     font-weight: 700;
 }
+
+.golf {
+    height: auto;
+    max-width: min(70%, 750px);
+
+    position: absolute;
+    bottom: -3%;
+    right: 0;
+}
