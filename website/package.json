@@ -4,11 +4,13 @@
   "private": false,
   "scripts": {
     "outdated": "npm outdated",
+    "start": "http-server src",
     "deploy": "sls deploy --debug",
     "undeploy": "sls remove --debug"
   },
   "dependencies": {},
   "devDependencies": {
+    "http-server": "~13.0.2",
     "serverless": "~2.62.0"
   }
 }
