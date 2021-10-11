@@ -1,0 +1,14 @@
+{
+  "name": "huisjehartwerk-website",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "outdated": "npm outdated",
+    "deploy": "sls deploy --debug",
+    "undeploy": "sls remove --debug"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "~2.62.0"
+  }
+}
