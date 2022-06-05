@@ -3,10 +3,9 @@ component: website@1.1.2
 org: dietervp
 app: huisjehartwerk
 name: huisjehartwerk-website
-stage: prd
 
 inputs:
   src: ./src
-  domain: huisjehartwerk.be
+  domain: ${stage}.huisjehartwerk.be
   region: eu-central-1
   bucketName: ${name}-${stage}
