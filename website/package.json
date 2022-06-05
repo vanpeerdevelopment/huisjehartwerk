@@ -5,13 +5,12 @@
   "scripts": {
     "outdated": "npm outdated",
     "start": "http-server src",
-    "deploy": "sls deploy --debug",
-    "undeploy": "sls remove --debug"
+    "deploy": "components deploy --debug",
+    "undeploy": "components remove --debug"
   },
   "dependencies": {},
   "devDependencies": {
     "http-server": "~14.1.1",
-    "serverless": "~3.19.0",
     "@serverless/components": "^3.18.2"
   }
 }
