@@ -10,7 +10,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "http-server": "~13.0.2",
-    "serverless": "~2.62.0"
+    "http-server": "~14.1.1",
+    "serverless": "~3.19.0"
   }
 }
