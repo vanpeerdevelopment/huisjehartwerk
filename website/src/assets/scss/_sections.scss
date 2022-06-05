@@ -316,7 +316,7 @@ section {
         text-align: center;
         background: rgba($primary, .75);
         transition: 0.3s;
-        width: 50%;
+        width: 100%; // TODO: #3: set to 50% when activating links
 
         &:hover {
           background: rgba($primary, .95);
