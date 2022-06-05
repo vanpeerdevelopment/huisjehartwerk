@@ -13,7 +13,8 @@ section {
 .section-title {
   padding-bottom: 30px;
   h2 {
-    font-size: 32px;
+    font-size: 40px;
+    font-family: $font-hartwerk;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -105,7 +106,6 @@ section {
     p {
       padding: 15px 0 0 0;
       margin: 0 0 0 60px;
-      font-family: $font-primary;
       font-size: 14px;
       color: lighten($secondary, 15);
     }
@@ -376,8 +376,9 @@ section {
     box-shadow: 0px 0 30px rgba($secondary, 0.08);
 
     h3 {
-      font-size: 22px;
+      font-size: 32px;
       font-weight: 700;
+      font-family: $font-hartwerk;
       margin-bottom: 20px;
       padding-bottom: 20px;
       border-bottom: 1px solid #eee;
@@ -399,8 +400,9 @@ section {
     padding-top: 30px;
     
     h2 {
-      font-size: 26px;
+      font-size: 36px;
       font-weight: 700;
+      font-family: $font-hartwerk;
       margin-bottom: 20px;
     }
 
@@ -751,8 +753,9 @@ section {
   background: lighten($default, 68);
 
   h2 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 300;
+    font-family: $font-hartwerk;
   }
 
   ol {

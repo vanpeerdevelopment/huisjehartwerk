@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 8px solid #2c2f3f;
 }
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
   font-weight: 600;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sue Ellen Francisco", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
@@ -209,9 +209,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 80px;
+  font-family: "Sue Ellen Francisco", sans-serif;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 120px;
   color: #fff;
 }
 #hero p {
@@ -259,7 +260,8 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
+  font-family: "Sue Ellen Francisco", sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -338,7 +340,6 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -557,8 +558,9 @@ section {
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 700;
+  font-family: "Sue Ellen Francisco", sans-serif;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -575,8 +577,9 @@ section {
   padding-top: 30px;
 }
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
+  font-family: "Sue Ellen Francisco", sans-serif;
   margin-bottom: 20px;
 }
 .portfolio-details .portfolio-description p {
@@ -871,8 +874,9 @@ section {
   background: #f8f8f8;
 }
 .breadcrumbs h2 {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 300;
+  font-family: "Sue Ellen Francisco", sans-serif;
 }
 .breadcrumbs ol {
   display: flex;
@@ -909,7 +913,7 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 14px;
+  font-size: 16px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -919,6 +923,9 @@ section {
 }
 #footer .copyright {
   text-align: center;
+}
+#footer .copyright span {
+  font-family: "Sue Ellen Francisco", sans-serif;
 }
 #footer .credits {
   padding-top: 5px;
