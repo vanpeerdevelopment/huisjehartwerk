@@ -4,8 +4,13 @@
   "private": false,
   "scripts": {
     "outdated": "npm outdated",
-    "comile-sass": "sass src/assets/scss/style.scss src/assets/css/style.css",
-    "start": "http-server src",
+
+    "sass:compile": "sass src/assets/scss/style.scss src/assets/css/style.css",
+
+    "sass:watch": "sass --watch src/assets/scss:src/assets/css",
+    "serve": "http-server src",
+    "start": "npm-run-all --parallel sass:watch serve",
+
     "deploy:beta": "components deploy --stage beta --debug",
     "undeploy:beta": "components remove --stage beta --debug",
     "deploy:www": "components deploy --stage www --debug",
@@ -13,7 +18,8 @@
   },
   "devDependencies": {
     "@serverless/components": "^3.18.2",
-    "http-server": "~14.1.1",
+    "http-server": "^14.1.1",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.52.2"
   }
 }
