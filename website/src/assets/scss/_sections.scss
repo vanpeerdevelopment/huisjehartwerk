@@ -258,7 +258,6 @@ section {
       font-weight: 600;
       line-height: 1;
       text-transform: uppercase;
-      color: $default;
       margin-bottom: 5px;
       transition: all 0.3s ease-in-out;
 
@@ -749,7 +748,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: lighten($default, 82);
+  background: lighten($default, 68);
 
   h2 {
     font-size: 26px;
