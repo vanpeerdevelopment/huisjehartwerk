@@ -5,6 +5,8 @@
   "scripts": {
     "outdated": "npm outdated",
     "start": "http-server src",
+    "deploy:beta": "components deploy --stage beta --debug",
+    "undeploy:beta": "components remove --stage beta --debug",
     "deploy:www": "components deploy --stage www --debug",
     "undeploy:www": "components remove --stage www --debug"
   },
