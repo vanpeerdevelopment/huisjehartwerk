@@ -5,8 +5,8 @@
   "scripts": {
     "outdated": "npm outdated",
     "start": "http-server src",
-    "deploy": "components deploy --stage www --debug",
-    "undeploy": "components remove --stage www --debug"
+    "deploy:www": "components deploy --stage www --debug",
+    "undeploy:www": "components remove --stage www --debug"
   },
   "dependencies": {},
   "devDependencies": {
