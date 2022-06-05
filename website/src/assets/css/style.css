@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -84,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
@@ -120,7 +112,6 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     left: -300px;
   }
-
   #main {
     margin-left: 0;
   }
@@ -834,7 +825,6 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 .contact .php-email-form .form-group {
@@ -864,14 +854,6 @@ section {
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes animate-loading {
   0% {
@@ -952,3 +934,5 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

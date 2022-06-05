@@ -4,15 +4,16 @@
   "private": false,
   "scripts": {
     "outdated": "npm outdated",
+    "comile-sass": "sass src/assets/scss/style.scss src/assets/css/style.css",
     "start": "http-server src",
     "deploy:beta": "components deploy --stage beta --debug",
     "undeploy:beta": "components remove --stage beta --debug",
     "deploy:www": "components deploy --stage www --debug",
     "undeploy:www": "components remove --stage www --debug"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@serverless/components": "^3.18.2",
     "http-server": "~14.1.1",
-    "@serverless/components": "^3.18.2"
+    "sass": "^1.52.2"
   }
 }
