@@ -43,6 +43,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
+
+  .hartwerk {
+    font-family: $font-hartwerk;
+    font-size: 24px;
+    padding: 0 4px;
+  }
+
   .content {
     h3 {
       font-weight: 700;
@@ -74,6 +81,17 @@ section {
 
     p:last-child {
       margin-bottom: 0;
+    }
+
+    &.about-karen {
+      text-align: center;
+      padding: 16px 0;
+
+
+      .about-row {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
     }
   }
 }
@@ -579,6 +597,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.about,
 .contact {
 
   padding-bottom: 130px;
@@ -618,12 +637,6 @@ section {
       color: lighten($secondary, 20);
     }
 
-    .email {
-      p {
-        padding-top: 5px;
-      }
-    }
-
     .social-links {
       padding-left: 60px;
 
@@ -648,7 +661,7 @@ section {
       }
     }
 
-    .email:hover, .address:hover, .phone:hover {
+    .email:hover, .address:hover, .phone:hover, .instagram:hover {
       i {
         background: $primary;
         color: $white;

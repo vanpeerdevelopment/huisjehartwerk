@@ -275,6 +275,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .hartwerk {
+  font-family: "Sue Ellen Francisco", sans-serif;
+  font-size: 24px;
+  padding: 0 4px;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -300,6 +305,14 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .content.about-karen {
+  text-align: center;
+  padding: 16px 0;
+}
+.about .content.about-karen .about-row {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -717,15 +730,18 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.about,
 .contact {
   padding-bottom: 130px;
 }
+.about .info,
 .contact .info {
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+.about .info i,
 .contact .info i {
   font-size: 20px;
   color: #f5ac77;
@@ -739,6 +755,7 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+.about .info h4,
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -746,18 +763,18 @@ section {
   margin-bottom: 5px;
   color: #050d18;
 }
+.about .info p,
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
 }
-.contact .info .email p {
-  padding-top: 5px;
-}
+.about .info .social-links,
 .contact .info .social-links {
   padding-left: 60px;
 }
+.about .info .social-links a,
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -772,23 +789,31 @@ section {
   transition: 0.3s;
   margin-right: 10px;
 }
+.about .info .social-links a:hover,
 .contact .info .social-links a:hover {
   background: #f5ac77;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.about .info .email:hover i, .about .info .address:hover i, .about .info .phone:hover i, .about .info .instagram:hover i,
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i,
+.contact .info .instagram:hover i {
   background: #f5ac77;
   color: #fff;
 }
+.about .php-email-form,
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+.about .php-email-form .form-group,
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
+.about .php-email-form .validate,
 .contact .php-email-form .validate {
   display: none;
   color: red;
@@ -796,6 +821,7 @@ section {
   font-weight: 400;
   font-size: 13px;
 }
+.about .php-email-form .error-message,
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -804,9 +830,11 @@ section {
   padding: 15px;
   font-weight: 600;
 }
+.about .php-email-form .error-message br + br,
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
+.about .php-email-form .sent-message,
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
@@ -815,12 +843,14 @@ section {
   padding: 15px;
   font-weight: 600;
 }
+.about .php-email-form .loading,
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
+.about .php-email-form .loading:before,
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
@@ -832,23 +862,30 @@ section {
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
+.about .php-email-form .form-group,
 .contact .php-email-form .form-group {
   margin-bottom: 15px;
 }
+.about .php-email-form label,
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.about .php-email-form input, .about .php-email-form textarea,
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
+.about .php-email-form input,
 .contact .php-email-form input {
   height: 44px;
 }
+.about .php-email-form textarea,
 .contact .php-email-form textarea {
   padding: 10px 15px;
 }
+.about .php-email-form button[type=submit],
 .contact .php-email-form button[type=submit] {
   background: #f5ac77;
   border: 0;
@@ -857,6 +894,7 @@ section {
   transition: 0.4s;
   border-radius: 4px;
 }
+.about .php-email-form button[type=submit]:hover,
 .contact .php-email-form button[type=submit]:hover {
   background: #f8c9a7;
 }
