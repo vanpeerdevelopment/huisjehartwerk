@@ -436,10 +436,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .portfolio-categories {
+  padding-bottom: 20px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -448,7 +451,7 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -459,10 +462,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
   color: #f5ac77;
 }
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
@@ -579,9 +582,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.portfolio .icon-box,
 .services .icon-box {
   margin-bottom: 20px;
 }
+.portfolio .icon,
 .services .icon {
   float: left;
   display: flex;
@@ -594,29 +599,37 @@ section {
   transition: 0.5s;
   border: 1px solid #f5ac77;
 }
+.portfolio .icon i,
 .services .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
+.portfolio .icon-box:hover .icon,
 .services .icon-box:hover .icon {
   background: #fff;
 }
+.portfolio .icon-box:hover .icon i,
 .services .icon-box:hover .icon i {
   color: #f5ac77;
 }
+.portfolio .title,
 .services .title {
   margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 18px;
 }
+.portfolio .title span, .portfolio .title a,
+.services .title span,
 .services .title a {
   color: #343a40;
 }
+.portfolio .title span:hover, .portfolio .title a:hover,
+.services .title span:hover,
 .services .title a:hover {
   color: #f5ac77;
 }
+.portfolio .description,
 .services .description {
   margin-left: 80px;
   line-height: 24px;

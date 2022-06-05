@@ -12,6 +12,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+
   h2 {
     font-size: 40px;
     font-family: $font-hartwerk;
@@ -48,7 +49,7 @@ section {
       font-size: 26px;
       color: lighten($secondary, 20);
     }
-  
+
     ul {
       list-style: none;
       padding: 0;
@@ -70,6 +71,7 @@ section {
         line-height: 0;
       }
     }
+
     p:last-child {
       margin-bottom: 0;
     }
@@ -118,6 +120,7 @@ section {
       font-size: 15px;
       font-family: $font-secondary;
       transition: ease-in-out 0.3s;
+
       &:hover {
         color: lighten($secondary, 30);
       }
@@ -178,7 +181,7 @@ section {
     margin-bottom: 20px;
     color: $secondary;
   }
-  
+
   .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
@@ -237,15 +240,19 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
 
+  .portfolio-categories {
+    padding-bottom: 20px;
+  }
+
   .portfolio-item {
     margin-bottom: 30px;
   }
 
-  #portfolio-flters {
-    padding:0;
-    margin:0 auto 35px auto;
-    list-style:none;
-    text-align:center;
+  #portfolio-filters {
+    padding: 0;
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
     background: $white;
     border-radius: 50px;
     padding: 2px 15px;
@@ -276,8 +283,9 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    
+
     $portfolio_wrap_spacing: 0;
+
     &::before {
       content: "";
       background: rgba($white, 0.5);
@@ -320,7 +328,6 @@ section {
       }
 
 
-
     }
 
     &:hover {
@@ -336,7 +343,7 @@ section {
         opacity: 1;
         bottom: 0;
       }
-      
+
     }
   }
 }
@@ -352,6 +359,7 @@ section {
     img {
       width: 100%;
     }
+
     .swiper-pagination {
       margin-top: 20px;
       position: relative;
@@ -389,16 +397,16 @@ section {
       padding: 0;
       font-size: 15px;
 
-      li +li {
+      li + li {
         margin-top: 10px;
       }
     }
-    
+
   }
 
   .portfolio-description {
     padding-top: 30px;
-    
+
     h2 {
       font-size: 36px;
       font-weight: 700;
@@ -416,6 +424,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.portfolio,
 .services {
 
   .icon-box {
@@ -444,6 +453,7 @@ section {
 
   .icon-box:hover .icon {
     background: #fff;
+
     i {
       color: $primary;
     }
@@ -453,10 +463,11 @@ section {
   .title {
     margin-left: 80px;
     font-weight: 700;
-    margin-bottom: 15px;
     font-size: 18px;
-    a {
+
+    span, a {
       color: $black;
+
       &:hover {
         color: $primary;
       }
@@ -501,7 +512,7 @@ section {
     h4 {
       font-size: 14px;
       color: #999;
-      margin:0;
+      margin: 0;
     }
 
     .quote-icon-left, .quote-icon-right {
@@ -519,7 +530,7 @@ section {
       display: inline-block;
       right: -5px;
       position: relative;
-      top:10px;
+      top: 10px;
     }
 
     p {
@@ -550,7 +561,7 @@ section {
   .swiper-pagination {
     margin-top: 20px;
     position: relative;
-  
+
     .swiper-pagination-bullet {
       width: 12px;
       height: 12px;
@@ -558,7 +569,7 @@ section {
       opacity: 1;
       border: 1px solid $primary;
     }
-  
+
     .swiper-pagination-bullet-active {
       background-color: $primary;
     }
@@ -576,7 +587,7 @@ section {
     padding: 30px;
     background: #fff;
     width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, .12);
 
     i {
       font-size: 20px;
@@ -615,6 +626,7 @@ section {
 
     .social-links {
       padding-left: 60px;
+
       a {
         font-size: 18px;
         display: inline-block;
@@ -628,6 +640,7 @@ section {
         height: 36px;
         transition: 0.3s;
         margin-right: 10px;
+
         &:hover {
           background: $primary;
           color: #fff;
@@ -648,7 +661,7 @@ section {
     width: 100%;
     padding: 30px;
     background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, .12);
 
     .form-group {
       padding-bottom: 8px;
@@ -661,7 +674,7 @@ section {
       font-weight: 400;
       font-size: 13px;
     }
-    
+
     .error-message {
       display: none;
       color: #fff;
@@ -669,11 +682,12 @@ section {
       text-align: left;
       padding: 15px;
       font-weight: 600;
+
       & br + br {
         margin-top: 25px;
       }
     }
-    
+
     .sent-message {
       display: none;
       color: #fff;
@@ -682,13 +696,13 @@ section {
       padding: 15px;
       font-weight: 600;
     }
-  
+
     .loading {
       display: none;
       background: #fff;
       text-align: center;
       padding: 15px;
-  
+
       &:before {
         content: "";
         display: inline-block;
@@ -700,7 +714,7 @@ section {
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
-  
+
     }
 
     .form-group {
@@ -732,16 +746,21 @@ section {
       color: #fff;
       transition: 0.4s;
       border-radius: 4px;
+
       &:hover {
         background: lighten($primary, 10%);
       }
     }
-  
+
   }
 
   @keyframes animate-loading {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
 
@@ -783,13 +802,14 @@ section {
       display: block !important;
 
     }
-    
+
     ol {
       display: block;
+
       li {
         display: inline-block;
       }
-      
+
     }
   }
 }

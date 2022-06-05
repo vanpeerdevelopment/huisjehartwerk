@@ -4,13 +4,10 @@
   "private": false,
   "scripts": {
     "outdated": "npm outdated",
-
     "sass:compile": "sass src/assets/scss/style.scss src/assets/css/style.css",
-
     "sass:watch": "sass --watch src/assets/scss:src/assets/css",
     "serve": "http-server src",
     "start": "npm-run-all --parallel sass:watch serve",
-
     "deploy:beta": "components deploy --stage beta --debug",
     "undeploy:beta": "components remove --stage beta --debug",
     "deploy:www": "components deploy --stage www --debug",
