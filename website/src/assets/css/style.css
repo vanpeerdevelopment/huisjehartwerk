@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.png") fixed bottom center;
   background-size: cover;
 }
 #hero:before {
@@ -227,20 +227,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #f5ac77;
 }
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    font-size: 56px;
+    line-height: 84px;
   }
 }
 
