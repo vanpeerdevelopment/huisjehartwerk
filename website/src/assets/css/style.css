@@ -279,7 +279,7 @@ section {
 .about .hartwerk {
   font-family: "Sue Ellen Francisco", sans-serif;
   font-size: 24px;
-  padding: 0 4px;
+  padding-right: 4px;
 }
 .about .content h3 {
   font-weight: 700;
