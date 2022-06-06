@@ -12,7 +12,13 @@
   transition: all 0.5s;
   padding: 0 15px;
   background: darken($secondary, 1);
+
   overflow-y: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
 
   .profile {
 
