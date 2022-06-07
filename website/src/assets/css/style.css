@@ -554,9 +554,13 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
-.portfolio-details .portfolio-details-slider img {
-  max-height: 80vh;
-  width: 100%;
+.portfolio-details .portfolio-details-slider .swiper-slide {
+  display: flex;
+}
+.portfolio-details .portfolio-details-slider .swiper-slide img {
+  margin: auto;
+  max-height: 800px;
+  max-width: 100%;
   object-fit: cover;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
