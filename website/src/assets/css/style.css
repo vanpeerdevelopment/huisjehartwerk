@@ -556,6 +556,7 @@ section {
 }
 .portfolio-details .portfolio-details-slider .swiper-slide {
   display: flex;
+  padding: 0 5px;
 }
 .portfolio-details .portfolio-details-slider .swiper-slide img {
   margin: auto;
