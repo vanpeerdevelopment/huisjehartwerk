@@ -287,10 +287,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .hartwerk {
-  font-family: "Sue Ellen Francisco", sans-serif;
-  font-size: 24px;
-}
 .about .karen {
   cursor: pointer;
 }
@@ -348,6 +344,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .content .hartwerk {
+  font-family: "Sue Ellen Francisco", sans-serif;
+  font-size: 24px;
+}
 .about .content.about-karen {
   text-align: center;
   margin-top: 16px;
@@ -355,6 +355,7 @@ section {
 .about .content.about-karen .about-row {
   padding-top: 16px;
   padding-bottom: 16px;
+  line-height: 32px;
 }
 
 /*--------------------------------------------------------------

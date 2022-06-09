@@ -44,11 +44,6 @@ section {
 --------------------------------------------------------------*/
 .about {
 
-  .hartwerk {
-    font-family: $font-hartwerk;
-    font-size: 24px;
-  }
-
   .karen {
     cursor: pointer;
   }
@@ -118,6 +113,11 @@ section {
       margin-bottom: 0;
     }
 
+    .hartwerk {
+      font-family: $font-hartwerk;
+      font-size: 24px;
+    }
+
     &.about-karen {
       text-align: center;
       margin-top: 16px;
@@ -125,6 +125,7 @@ section {
       .about-row {
         padding-top: 16px;
         padding-bottom: 16px;
+        line-height: 32px;
       }
     }
   }
