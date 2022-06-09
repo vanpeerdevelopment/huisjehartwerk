@@ -775,11 +775,11 @@ section {
 
     .form-group {
       margin-bottom: 15px;
+    }
 
-      &.firstname {
-        visibility: hidden;
-        height: 0;
-      }
+    .firstname {
+      visibility: hidden;
+      height: 0;
     }
 
     label {

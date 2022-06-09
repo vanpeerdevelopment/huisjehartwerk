@@ -913,8 +913,8 @@ section {
 .contact .email-form .form-group {
   margin-bottom: 15px;
 }
-.about .email-form .form-group.firstname,
-.contact .email-form .form-group.firstname {
+.about .email-form .firstname,
+.contact .email-form .firstname {
   visibility: hidden;
   height: 0;
 }
