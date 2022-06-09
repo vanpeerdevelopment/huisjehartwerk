@@ -712,7 +712,7 @@ section {
   }
 
 
-  .php-email-form {
+  .email-form {
     width: 100%;
     padding: 30px;
     background: #fff;
@@ -774,6 +774,11 @@ section {
 
     .form-group {
       margin-bottom: 15px;
+
+      &.firstname {
+        visibility: hidden;
+        height: 0;
+      }
     }
 
     label {
