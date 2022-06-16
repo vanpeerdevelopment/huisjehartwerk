@@ -337,26 +337,30 @@ section {
     overflow: hidden;
     z-index: 1;
 
+    &.paper-fold {
+      border-radius: 0 0 8px 0;
+    }
+
     $portfolio_wrap_spacing: 0;
 
-    &::before {
-      content: "";
-      background: rgba($white, 0.5);
-      position: absolute;
-      left: $portfolio_wrap_spacing;
-      right: $portfolio_wrap_spacing;
-      top: $portfolio_wrap_spacing;
-      bottom: $portfolio_wrap_spacing;
-      transition: all ease-in-out 0.3s;
-      z-index: 2;
-      opacity: 0;
-    }
+    //&::before {
+    //  content: "";
+    //  background: rgba($white, 0.5);
+    //  position: absolute;
+    //  left: $portfolio_wrap_spacing;
+    //  right: $portfolio_wrap_spacing;
+    //  top: $portfolio_wrap_spacing;
+    //  bottom: $portfolio_wrap_spacing;
+    //  transition: all ease-in-out 0.3s;
+    //  z-index: 2;
+    //  opacity: 0;
+    //}
 
     .portfolio-links {
       opacity: 1;
-      left: 0;
+      left: 88%;
       right: 0;
-      bottom: -60px;
+      bottom: 0;
       z-index: 3;
       position: absolute;
       transition: all ease-in-out 0.3s;
@@ -370,6 +374,7 @@ section {
         background: rgba($primary, .75);
         transition: 0.3s;
         width: 100%;
+        border-radius: 8px 0 0 0;
 
         &:hover {
           background: rgba($primary, .95);
@@ -379,25 +384,22 @@ section {
       a + a {
         border-left: 1px solid lighten($primary, 10);
       }
-
-
     }
 
-    &:hover {
-      &::before {
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 1;
-      }
+    //&:hover {
+    //&::before {
+    //  top: 0;
+    //  left: 0;
+    //  right: 0;
+    //  bottom: 0;
+    //  opacity: 1;
+    //}
 
-      .portfolio-links {
-        opacity: 1;
-        bottom: 0;
-      }
-
-    }
+    //.portfolio-links {
+    //  opacity: 1;
+    //  bottom: 0;
+    //}
+    //}
   }
 }
 
