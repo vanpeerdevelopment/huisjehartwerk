@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-position: bottom center;
   background-size: cover;
-  background-image: linear-gradient(0deg, rgba(5, 13, 24, 0.3), rgba(5, 13, 24, 0.3)), url("../img/hero-bg.png");
+  background-image: linear-gradient(0deg, rgba(5, 13, 24, 0.2), rgba(5, 13, 24, 0.2)), url("../img/hero-bg.jpg");
 }
 #hero .hero-container {
   position: relative;
@@ -650,29 +650,11 @@ section {
   font-size: 24px;
   line-height: 0;
 }
-.portfolio .icon-box:hover .icon,
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-.portfolio .icon-box:hover .icon i,
-.services .icon-box:hover .icon i {
-  color: #f5ac77;
-}
 .portfolio .title,
 .services .title {
   margin-left: 80px;
   font-weight: 700;
   font-size: 18px;
-}
-.portfolio .title span, .portfolio .title a,
-.services .title span,
-.services .title a {
-  color: #343a40;
-}
-.portfolio .title span:hover, .portfolio .title a:hover,
-.services .title span:hover,
-.services .title a:hover {
-  color: #f5ac77;
 }
 .portfolio .description,
 .services .description {

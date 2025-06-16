@@ -516,27 +516,29 @@ section {
 
   }
 
-  .icon-box:hover .icon {
-    background: #fff;
-
-    i {
-      color: $primary;
-    }
-
-  }
+  // Disabled higlight on hover because seems clickable
+  //.icon-box:hover .icon {
+  //  background: #fff;
+  //
+  //  i {
+  //    color: $primary;
+  //  }
+  //
+  //}
 
   .title {
     margin-left: 80px;
     font-weight: 700;
     font-size: 18px;
 
-    span, a {
-      color: $black;
-
-      &:hover {
-        color: $primary;
-      }
-    }
+    // Disabled higlight on hover because seems clickable
+    //span, a {
+    //  color: $black;
+    //
+    //  &:hover {
+    //    color: $primary;
+    //  }
+    //}
 
   }
 
