@@ -1,4 +1,5 @@
-# huisje hARTwerk
-[![Netlify Status](https://api.netlify.com/api/v1/badges/181ed927-ad37-4da9-b38d-ce5fdfe872c9/deploy-status)](https://app.netlify.com/sites/huisjehartwerk/deploys)
+# Kalis Keramiek
+[![Netlify Status](https://api.netlify.com/api/v1/badges/181ed927-ad37-4da9-b38d-ce5fdfe872c9/deploy-status)](https://app.netlify.com/sites/kaliskeramiek/deploys)
 
+[www.kaliskeramiek.be](https://www.kaliskeramiek.be)
 [www.huisjehartwerk.be](https://www.huisjehartwerk.be)

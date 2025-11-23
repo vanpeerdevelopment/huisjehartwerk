@@ -287,6 +287,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .kalis {
+  font-family: "Sue Ellen Francisco", sans-serif;
+  font-size: 24px;
+}
+
 .about .karen {
   cursor: pointer;
 }
@@ -343,10 +348,6 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
-}
-.about .content .hartwerk {
-  font-family: "Sue Ellen Francisco", sans-serif;
-  font-size: 24px;
 }
 .about .content.about-karen {
   text-align: center;
